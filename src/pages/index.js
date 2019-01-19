@@ -11,7 +11,6 @@ import Wrapper from '../components/wrapper'
 import About from '../components/about'
 import Skills from '../components/skills'
 import Timeline from '../components/timeline'
-import Repositories from '../components/repositories'
 
 const Separator = styled.hr`
   margin-top: 24px;
@@ -20,10 +19,19 @@ const Separator = styled.hr`
 
 class Home extends React.Component {
   render() {
-    const title = 'Welcome'
+    const title = 'Greetings'
     return (
       <Layout location={this.props.location}>
-        <SEO title={title} keywords={['gatsbyjs', 'react', 'curriculum']} />
+        <SEO
+          title={title}
+          keywords={[
+            'euan',
+            'react developer',
+            'greenwood',
+            'euan greenwood cv',
+            'euan greenwood resume',
+          ]}
+        />
 
         <Hero heroImg={siteConfig.siteCover} title={title} />
 
@@ -83,7 +91,13 @@ class Home extends React.Component {
             <Separator />
             <Timeline />
             <Separator />
-            {/* <Repositories /> */}
+            <div className="center-text">
+              See{' '}
+              <a href="https://www.linkedin.com/in/euangreenwood">
+                LinkedIn Profile
+              </a>{' '}
+              for Full Job History{' '}
+            </div>
           </Container>
         </Wrapper>
       </Layout>
@@ -95,6 +109,10 @@ export default styled(Home)`
   .page-content {
     max-width: 100%;
     margin-bottom: 40px;
+  }
+
+  .center-text {
+    text-align: center;
   }
 
   .avatar {
