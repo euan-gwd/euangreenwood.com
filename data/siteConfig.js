@@ -5,11 +5,12 @@ module.exports = {
   twitterUsername: 'euangwd',
   githubUsername: 'euan-gwd',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `I am self-taught, my interest in technology started at an early age, professionally I started as a Microsoft systems and network administrator for a small manufacturing firm. I then moved on to do <strong>web design</strong> using Flash and Action Script and then 3d animation and visual effects using 3D Studio Max, before moving to technical support in the Apple industry, starting with an Apple retailer and service center doing both hardware repairs and software support and finally moving on to do corporate support. Recently moved back into <strong>web app development</strong>. Where I enjoy to building user interfaces using <strong>CSS</strong>, <strong>Javascript</strong> and <strong>React</strong> to solve interesting problems.`,
+  authorDescription: `I am self-taught, my interest in technology started at an early age, professionally I started as a Microsoft systems and network administrator for a small manufacturing firm. I then moved on to do both web design with Flash and Action Script and 3D animation and visual effects using 3D Studio Max.  Before moving back to do technical support in the Apple industry, starting with an Apple retailer and service center doing both hardware repairs and software support and finally moving on to do corporate support.  Recently moved back into web development. Where I enjoy constructing user interfaces using JavaScript, CSS and ReactJs to solve interesting problems.
+  `,
   skills: [
     {
       name: 'HTML',
-      level: 60,
+      level: 70,
     },
     {
       name: 'CSS',
@@ -25,6 +26,10 @@ module.exports = {
     },
     {
       name: 'Git',
+      level: 60,
+    },
+    {
+      name: 'NodeJs',
       level: 50,
     },
   ],
