@@ -21,12 +21,16 @@ module.exports = {
       level: 80,
     },
     {
+      name: 'Git',
+      level: 60,
+    },
+    {
       name: 'React',
       level: 80,
     },
     {
-      name: 'Git',
-      level: 60,
+      name: 'AJAX & JSON',
+      level: 70,
     },
     {
       name: 'NodeJs',
