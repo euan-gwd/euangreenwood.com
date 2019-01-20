@@ -9,11 +9,11 @@ module.exports = {
   `,
   skills: [
     {
-      name: 'HTML5',
+      name: 'HTML 5+',
       level: 70,
     },
     {
-      name: 'CSS3',
+      name: 'CSS 3+',
       level: 70,
     },
     {
@@ -25,11 +25,11 @@ module.exports = {
       level: 60,
     },
     {
-      name: 'React',
+      name: 'ReactJS',
       level: 80,
     },
     {
-      name: 'NodeJs',
+      name: 'NodeJS',
       level: 50,
     },
     {
