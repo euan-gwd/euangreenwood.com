@@ -9,19 +9,19 @@ module.exports = {
   `,
   skills: [
     {
-      name: 'HTML',
+      name: 'HTML5',
       level: 70,
     },
     {
-      name: 'CSS',
+      name: 'CSS3',
       level: 70,
     },
     {
-      name: 'Javascript',
+      name: 'Javascript ES6+',
       level: 80,
     },
     {
-      name: 'Git',
+      name: 'Git & GitHub',
       level: 60,
     },
     {
@@ -29,12 +29,20 @@ module.exports = {
       level: 80,
     },
     {
+      name: 'NodeJs',
+      level: 50,
+    },
+    {
       name: 'AJAX & JSON',
       level: 70,
     },
     {
-      name: 'NodeJs',
-      level: 50,
+      name: 'Sass & CSS-in-JS',
+      level: 60,
+    },
+    {
+      name: 'Responsive Design',
+      level: 70,
     },
   ],
   jobs: [
