@@ -1,25 +1,25 @@
-import React from 'react'
-import styled from 'styled-components'
-import { Container, Row, Col } from 'react-awesome-styled-grid'
-import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from 'react-icons/fa'
-import siteConfig from '../../data/siteConfig'
+import React from 'react';
+import styled from 'styled-components';
+import { Container, Row, Col } from 'react-awesome-styled-grid';
+import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from 'react-icons/fa';
+import siteConfig from '../../data/siteConfig';
 
-import Layout from '../components/layout'
-import Hero from '../components/hero'
-import SEO from '../components/SEO'
-import Wrapper from '../components/wrapper'
-import About from '../components/about'
-import Skills from '../components/skills'
-import Timeline from '../components/timeline'
+import Layout from '../components/layout';
+import Hero from '../components/hero';
+import SEO from '../components/SEO';
+import Wrapper from '../components/wrapper';
+import About from '../components/about';
+import Skills from '../components/skills';
+import Timeline from '../components/timeline';
 
 const Separator = styled.hr`
   margin-top: 24px;
   margin-bottom: 16px;
-`
+`;
 
 class Home extends React.Component {
   render() {
-    const title = 'Greetings'
+    const title = 'Curriculum Vitae';
     return (
       <Layout location={this.props.location}>
         <SEO
@@ -96,12 +96,12 @@ class Home extends React.Component {
               <a href="https://www.linkedin.com/in/euangreenwood">
                 LinkedIn Profile
               </a>{' '}
-              for Full Job History{' '}
+              for more details and full Job History{' '}
             </div>
           </Container>
         </Wrapper>
       </Layout>
-    )
+    );
   }
 }
 
@@ -152,4 +152,4 @@ export default styled(Home)`
   a.social-link.email:hover {
     color: #c23a2b;
   }
-`
+`;
