@@ -5,7 +5,7 @@ module.exports = {
   twitterUsername: 'euangwd',
   githubUsername: 'euan-gwd',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `I am self-taught, my interest in technology started at an early age, professionally I started as a Microsoft systems and network administrator for a small manufacturing firm. I then moved on to do both web design with Flash and Action Script and 3D animation and visual effects using 3D Studio Max.  Before moving back to do technical support in the Apple industry, starting with an Apple retailer and service center doing both hardware repairs and software support and finally moving on to do corporate support.  Recently moved back into web development. Where I enjoy constructing user interfaces using JavaScript, CSS and ReactJs to solve interesting problems.
+  authorDescription: `I am self-taught, my interest in technology started at an early age, professionally I started as a Microsoft systems and network administrator for a small manufacturing firm. I then moved on to do both <strong>web design</strong> with Flash and Action Script and 3D animation and visual effects using 3D Studio Max.  Before moving back to do <strong>technical support</strong> in the Apple industry, starting with an Apple retailer and service center doing both hardware repairs and software support and finally moving on to do corporate support.  Recently moved back into <strong>web app development</strong>. Where I enjoy constructing user interfaces using <strong>JavaScript</strong>, <strong>CSS</strong> and <strong>ReactJs</strong> to solve interesting problems.
   `,
   skills: [
     {
