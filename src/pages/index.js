@@ -1,7 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Container, Row, Col } from 'react-awesome-styled-grid';
-import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from 'react-icons/fa';
+import {
+  FaGithub,
+  FaLinkedin,
+  FaEnvelope,
+  FaTwitter,
+  FaFileDownload,
+} from 'react-icons/fa';
 import siteConfig from '../../data/siteConfig';
 
 import Layout from '../components/layout';
@@ -91,12 +97,25 @@ class Home extends React.Component {
             <Separator />
             <Timeline />
             <Separator />
-            <div className="center-text">
-              See{' '}
-              <a href="https://www.linkedin.com/in/euangreenwood">
-                LinkedIn Profile
-              </a>{' '}
-              for more details and full Job History{' '}
+            <div className="social footer-block">
+              {siteConfig.social.linkedin && (
+                <a
+                  className="social-link linkedin"
+                  href={siteConfig.social.linkedin}
+                >
+                  <FaLinkedin className="social-icon" size="32" />
+                  View Full History
+                </a>
+              )}
+              or
+              <a
+                className="social-link github"
+                href="/pdf/Euan Greenwood Current CV.pdf"
+                download="Euan Greenwood Current CV.pdf"
+              >
+                <FaFileDownload className="social-icon" size="32" />
+                Download CV
+              </a>
             </div>
           </Container>
         </Wrapper>
@@ -111,8 +130,10 @@ export default styled(Home)`
     margin-bottom: 40px;
   }
 
-  .center-text {
-    text-align: center;
+  .footer-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .avatar {
@@ -130,11 +151,16 @@ export default styled(Home)`
   .social {
     margin-top: 12px;
     margin-bottom: 12px;
+    display: flex;
+    flex-wrap: nowrap;
   }
 
   .social-link {
     padding: 8px;
     color: #555;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
   }
 
   a.social-link.twitter:hover {
