@@ -55,7 +55,7 @@ module.exports = {
       duration: '6 months',
       occupation: 'Front-End developer',
       description:
-        'Implemented front-end UI for various new features using ReactJS and Python. Most notably implemented a user and team management interface for an internal project called Talistry as well as implementing data visualization using D3 to show User and Team resource and time usage. Implemented Front-end testing enviroment',
+        'Implemented front-end UI for various new features using ReactJS and Python. Most notably implemented a user and team management interface as well as implementing data visualization using D3 to show User and Team resource and time usage for an internal project called Talistry. Implemented Front-end testing enviroment',
     },
     {
       company: 'Amwic Consulting',
