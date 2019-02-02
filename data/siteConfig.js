@@ -30,15 +30,15 @@ module.exports = {
     },
     {
       name: 'NodeJS',
-      level: 50,
+      level: 25,
     },
     {
       name: 'AJAX & JSON',
-      level: 70,
+      level: 60,
     },
     {
       name: 'Sass & CSS-in-JS',
-      level: 60,
+      level: 70,
     },
     {
       name: 'Responsive Design',
