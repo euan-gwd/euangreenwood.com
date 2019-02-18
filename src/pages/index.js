@@ -17,6 +17,7 @@ import Wrapper from '../components/wrapper';
 import About from '../components/about';
 import Skills from '../components/skills';
 import Timeline from '../components/timeline';
+import Repositories from '../components/repositories';
 
 const Separator = styled.hr`
   margin-top: 24px;
@@ -97,6 +98,8 @@ class Home extends React.Component {
             <Separator />
             <Timeline />
             <Separator />
+            <Repositories />
+            <Separator />
             <div className="social footer-block">
               {siteConfig.social.linkedin && (
                 <a
@@ -107,7 +110,6 @@ class Home extends React.Component {
                   View Full History
                 </a>
               )}
-              or
               <a
                 className="social-link github"
                 href="/pdf/Euan Greenwood Current CV.pdf"
