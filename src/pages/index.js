@@ -99,7 +99,7 @@ class Home extends React.Component {
             <Timeline />
             <Separator />
             <Repositories />
-            <Separator />
+            {/* <Separator /> */}
             <div className="social footer-block">
               {siteConfig.social.linkedin && (
                 <a
