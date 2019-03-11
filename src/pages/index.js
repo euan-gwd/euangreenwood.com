@@ -110,14 +110,14 @@ class Home extends React.Component {
                   View Full History
                 </a>
               )}
-              <a
+              {/* <a
                 className="social-link github"
                 href="/pdf/Euan Greenwood Current CV.pdf"
                 download="Euan Greenwood Current CV.pdf"
               >
                 <FaFileDownload className="social-icon" size="32" />
                 Download CV
-              </a>
+              </a> */}
             </div>
           </Container>
         </Wrapper>
