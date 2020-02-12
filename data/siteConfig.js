@@ -47,6 +47,17 @@ module.exports = {
   ],
   jobs: [
     {
+      company: 'Slate Apps',
+      begin: {
+        month: 'mar',
+        year: '2019',
+      },
+      duration: '1 year',
+      occupation: 'Front-End developer',
+      description:
+        'Worked with Nationwide Building Society embedded on site and collaborated with designers and implemented front-end UI prototypes for mortgages journeys.',
+    },
+    {
       company: 'canpango',
       begin: {
         month: 'jul',
