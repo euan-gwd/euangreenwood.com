@@ -56,9 +56,14 @@ class Repositories extends React.Component {
                       <strong>{repo.name}</strong>
                     </a>
                     <div>{repo.description}</div>
-                    <a className="repositories__repo-site" href={repo.homepage}>
-                      Visit Deployed Site
-                    </a>
+                    {repo.homepage !== '' && (
+                      <a
+                        className="repositories__repo-site"
+                        href={repo.homepage}
+                      >
+                        Visit Deployed Site
+                      </a>
+                    )}
                     <div className="repositories__repo-date">
                       Updated: {new Date(repo.updated_at).toUTCString()}
                     </div>
