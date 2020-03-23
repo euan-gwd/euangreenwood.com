@@ -5,9 +5,7 @@ import siteConfig from '../../../data/siteConfig';
 
 import Loader from '../loader';
 
-const endpoint = `https://api.github.com/users/${
-  siteConfig.githubUsername
-}/repos?type=owner`;
+const endpoint = `https://api.github.com/users/${siteConfig.githubUsername}/repos?type=owner`;
 
 class Repositories extends React.Component {
   constructor(props) {
@@ -30,10 +28,10 @@ class Repositories extends React.Component {
         ? this.state.repos
             .map(item => {
               if (
-                item.name === 'OrderIn' ||
+                item.name === 'amwic' ||
+                item.name === 'rgPrizeDrawApp' ||
                 item.name === 'WriterApp' ||
-                item.name === 'distinctly-different-decor-v2' ||
-                item.name === 'amwic'
+                item.name === 'OrderIn'
               ) {
                 return item;
               }
