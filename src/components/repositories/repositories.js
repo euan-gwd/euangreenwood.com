@@ -28,7 +28,7 @@ class Repositories extends React.Component {
         ? this.state.repos
             .map(item => {
               if (
-                item.name === 'Redux-Hooks-Shop' ||,
+                item.name === 'Redux-Hooks-Shop' ||
                 item.name === 'amwic' ||
                 item.name === 'rgPrizeDrawApp' ||
                 item.name === 'WriterApp' ||
