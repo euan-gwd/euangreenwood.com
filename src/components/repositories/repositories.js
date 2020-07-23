@@ -29,6 +29,7 @@ class Repositories extends React.Component {
             .map(item => {
               if (
                 item.name === 'Redux-Hooks-Shop' ||
+                item.name === 'currency-convertor' ||
                 item.name === 'rgPrizeDrawApp' ||
                 item.name === 'WriterApp' ||
                 item.name === 'OrderIn'
